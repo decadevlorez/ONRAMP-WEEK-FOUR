@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    width: 1412px;
+    height: 800px;
+}
+
+.maincontainer {
+    background-image: url(/utils/images/bg-intro-desktop.png);
+    background-color: hsl(0, 100%, 74%);
+    width: 1412px;
+    height: 800px;
+}
+
+.topof {
+    background-color: blueviolet;
+    height: 20px;
+    width: 470px;
+    margin-top: 65px;
+    border-radius: 8px;
+    float: right;
+    margin-right: 100px;
+    height: 45px;
+    text-align: center;
+}
+
+.form {
+    margin-right: -470px;
+    height: 300px;
+    margin-top: 120px;
+    width: 400px;
+    padding: 40px;
+    border-radius: 8px;
+    border: 0px;
+    background-color: white;
+    float: right;
+}
+
+input {
+    width: 400px;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 2px;
+    box-sizing: border-box;
+    border-color: lightgray;
+    margin-top: 2px;
+    height: 50px;
+}
+
+button {
+    margin-left: 2px;
+    color: white;
+    background-color: hsl(154, 59%, 51%);
+    width: 400px;
+    height: 50px;
+    font-size: large;
+}
+
+.learn {
+    margin-left: 150px;
+    margin-top: 90px;
+    color: white;
+}
